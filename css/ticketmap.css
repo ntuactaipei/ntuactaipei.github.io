@@ -1,0 +1,96 @@
+/* Visibility Init */
+#message, #form, #statistic {
+    display: none;
+}
+
+/* Floor */
+#container_switch {
+    width: 300px;
+    height: 30px;
+}
+#container_form {
+    width: 550px;
+    height: 200px;
+}
+#container_submit {
+    width: 100px;
+    height: 50px;
+}
+
+.seat_type_0, #submit_count_type0 { background: #BAE89B; }
+.seat_type_1, #submit_count_type1 { background: #80AEED; }
+.seat_type_2, #submit_count_type2 { background: #E7EB73; }
+.seat_type_3, #submit_count_type3 { background: #EBB391; }
+.seat_type_4, #submit_count_type4 { background: #C99BE8; }
+.seat_type_a { background: #8a8a8a; }
+.seat_type_b { background: #404040; }
+.seat_select { background: #AE00ED; }
+
+
+/* Form */
+.showsetting{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.showsetting label input{
+    margin: 0px 5px 0px 0px;
+}
+
+input, .form_label {
+    color: #3B3B3B;
+    float: left;
+    font-family: "Calibri", "Heiti TC", "微軟正黑體";
+    font-size: 100%;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.form_label {
+    width: 110px;
+    text-align: left;
+}
+.form_line {
+    float: left;
+    text-align: left;
+    width: 540px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    margin:5px;
+}
+div[id^=submit_count_type] {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+#submit_buyer, #submit_date, #submit_paymode {
+    width: 130px;
+    margin-right: 50px;
+}
+#submit_department, #submit_saler, #submit_discount {
+    width: 120px;
+}
+#total_price, #total_priceowe {
+    color: #994242;
+}
+#total_price {
+    margin-right: 60px;
+}
+#submit {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #3B3B3B;
+    background: #9FEDA5;
+}
+#submit:hover {
+    background: #75EB7F;
+}

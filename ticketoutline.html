@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>台大合唱團音樂會座位圖</title>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/connect.js"></script>
+        <script type="text/javascript" src="js/drawmap.js"></script>
+        <script type="text/javascript" src="js/ticketoutline.js"></script>
+        <link href="css/menu.css" rel="stylesheet" type="text/css" />
+        <link href="css/footer.css" rel="stylesheet" type="text/css" />
+        <link href="css/typeset.css" rel="stylesheet" type="text/css" />
+        <link href="css/seat.css" rel="stylesheet" type="text/css" />
+        <link href="css/ticketoutline.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Top Menu -->
+        <div id="menu">
+            <div id="menuinner">
+                <ul>
+                    <li><a class="menubutton" id="menubutton_1" href="root.html">首頁</a></li>
+                    <li><a class="menubutton" id="menubutton_2_on" href="ticketoutline.html">電子票圖</a></li>
+                    <li><a class="menubutton" id="menubutton_3" href="ticketsetting.html">整票系統</a></li>
+                    <li><a class="menubutton" id="menubutton_4" href="ticketdraw.html">劃票系統</a></li>
+                    <li><a class="menubutton" id="menubutton_5" href="ticketsale.html">售票登記</a></li>
+                    <li><a class="menubutton" id="menubutton_6" href="ticketedit.html">訂單編輯</a></li>
+                    <li><a class="menubutton" id="menubutton_7" href="ticketmap.html">售票地圖</a></li>
+                    <li><a class="menubutton" id="menubutton_8" href="statistics.html">統計報表</a></li>
+                    <li id="menumanager"></li>
+                </ul>
+            </div>
+        </div>
+        <div id='content'>
+            <div class='floor' id='requesting'>
+                正在讀取座位圖資訊......
+            </div>
+            <div class='floor' id='message'>
+                <div id='update_date'></div>
+                <select id='select_viewprogram' onchange="programChange(this)"></select>
+                <div id='update_message'></div>
+            </div>
+            <div class='floor' id='statistic'>
+                <div class='floor_label'>售票率統計</div>
+                <div class='container_statistic'></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footerinner">
+                <div id="footerbutton">
+                    <a class="footericon" id="footericon_facebook" href="https://www.facebook.com/NTUChorus/" target=_blank></a>
+                    <a class="footericon" id="footericon_youtube" href="https://www.youtube.com/NTUChorus/" target=_blank></a>
+                    <a class="footericon" id="footericon_twitter" href="https://twitter.com/NTUChorus/" target=_blank></a>
+                </div>
+                <div id="footermessage">
+                    <p>Copyright &copy 2017 NTUChorus. All rights reserved.</p>
+                    <p>Please contact r04922046_AT_ntu.edu.tw for further information.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

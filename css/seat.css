@@ -1,0 +1,26 @@
+a {
+    display: block;
+    color: #111111;
+}
+.seat, .seat_blank, .seat_forbid, .seat_label {
+    display: block;
+    float: left;
+    font-size: 10px;
+    width: 16px;
+    height: 14px;
+    line-height: 14px;
+    margin: 1px;
+}
+.seat {
+    color: #111111;
+}
+.seat_blank {
+    color: #000000;
+}
+.seat_forbid {
+    color: #404040;
+    background: #404040;
+}
+.seat_label {
+    color: #BA5656;
+}
