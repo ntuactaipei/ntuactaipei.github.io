@@ -3,6 +3,6 @@ function fbsdkInitialization(callback) {
 }
 
 function fbsdkCheckLogin(callback) {
-    callback('1', '0');
+    callback(1, '0');
 }
 
