@@ -156,7 +156,7 @@ function showData(data){
     $('#requesting').hide();
     $('#attribute').show();
     $('#setting').show();
-    $('#manager').show();
+    //$('#manager').show();
 }
 
 
