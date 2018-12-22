@@ -2,7 +2,7 @@ var nowProgram = -1;
 var priceTable = [];
 
 function programChange(e){
-    $('#programtitle').html("台大合唱團音樂會座位圖");
+    $('#programtitle').html("台大校友合唱團音樂會座位圖");
     $('#requesting').html("正在讀取座位圖資訊......");
     $('#requesting').show();
     $('#message').hide();
@@ -81,7 +81,7 @@ function showData(data){
             $('#select_viewprogram').val(nowProgram);
         }
     }
-    var titleStr = '台大合唱團' + nowCategory['year'];
+    var titleStr = '台大校友合唱團' + nowCategory['year'];
     if(nowCategory['season'] == 0)
         titleStr += '冬季音樂會《';
     else
