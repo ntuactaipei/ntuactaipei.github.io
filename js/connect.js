@@ -5,7 +5,7 @@ function connectServer(type, dataset, server, callback){
         contentType: 'application/json',
         dataType: 'json',
         crossDomain: true,
-        url: "https://139.162.109.232:3002/" + server,
+        url: "https://ntuchorus.ddns.net:3002/" + server,
         success: function(data){
         	callback(data);
         },
